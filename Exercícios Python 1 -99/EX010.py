@@ -1,0 +1,7 @@
+print('---------------------')
+print('      R$ -> US$      ')
+print('---------------------')
+n = str(input('Nome: '))
+d = float(input('Valor em R$'))
+print('-----------------------------------------')
+print('{} poderá comprar US${:.2f}'.format(n, d/3.27))
